@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="parallel" parallel="tests" thread-count="2"> 
+  <test name="Default test" >
+    <classes>
+      <class name="testCases.Verifying_Landing_Page"/>
+      
+     
+    </classes>
+  </test> <!-- Default test -->
+  <test  name="Default test1" >
+    <classes>
+      <class name="testCases.Verifying_User_Registration"/>
+      
+  
+     
+    </classes>
+  </test> 
+</suite> <!-- Default suite -->
